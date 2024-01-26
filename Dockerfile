@@ -1,4 +1,4 @@
-FROM golang:lates
+FROM golang:latest
 COPY . /go/src/app
 WORKDIR /go/src/app
 COPY go.mod go.sum ./
